@@ -66,13 +66,13 @@ export default function Project({
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-wrap items-center gap-2 mt-3">
+          <div className="mt-3 grid grid-cols-1 gap-2 sm:flex sm:flex-wrap sm:items-center">
             {githubUrl && (
               <a
                 href={githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 bg-gray-900 text-white text-xs font-semibold px-3 py-1.5 rounded-full hover:bg-gray-700 hover:scale-105 active:scale-100 transition"
+                className="flex w-full items-center justify-center gap-1.5 bg-gray-900 px-3 py-2 text-xs font-semibold text-white rounded-full transition hover:scale-105 hover:bg-gray-700 active:scale-100 sm:w-auto"
               >
                 <FaGithub />
                 GitHub
@@ -83,7 +83,7 @@ export default function Project({
                 href={demoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 bg-white border border-gray-300 text-gray-800 text-xs font-semibold px-3 py-1.5 rounded-full hover:bg-gray-50 hover:scale-105 active:scale-100 transition dark:bg-white/10 dark:text-white dark:border-white/20"
+                className="flex w-full items-center justify-center gap-1.5 border border-gray-300 bg-white px-3 py-2 text-xs font-semibold text-gray-800 rounded-full transition hover:scale-105 hover:bg-gray-50 active:scale-100 dark:border-white/20 dark:bg-white/10 dark:text-white sm:w-auto"
               >
                 <HiExternalLink />
                 Live Demo

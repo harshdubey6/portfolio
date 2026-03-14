@@ -36,11 +36,18 @@ export default function Skills() {
             viewport={{ once: true }}
             custom={index}
             className="flex items-center gap-1.5 bg-white border border-gray-200 shadow-sm rounded-lg px-3 py-1.5 dark:bg-black/40 dark:border-white/10 dark:text-white/80 hover:-translate-y-0.5 hover:shadow-md transition-all cursor-default"
+            style={{
+              borderColor: `${skill.color}33`,
+              backgroundColor: `${skill.color}0D`,
+            }}
           >
-            <span className="text-base text-gray-500 dark:text-gray-400 flex-shrink-0">
+            <span
+              className="text-base flex-shrink-0"
+              style={{ color: skill.color }}
+            >
               {skill.icon}
             </span>
-            <span className="text-xs font-semibold text-gray-700 dark:text-gray-300">
+            <span className="text-xs font-semibold text-gray-700 dark:text-gray-200">
               {skill.name}
             </span>
           </motion.li>

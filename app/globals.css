@@ -2,14 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─── CSS custom properties ─────────────────────────────── */
 html {
   --line-color: #e5e7eb;
 }
 
 html.dark {
-  --line-color: rgba(255, 255, 255, 0.2);
+  --line-color: rgba(255, 255, 255, 0.15);
 }
 
+/* ─── Base background ────────────────────────────────────── */
+body {
+  /* Light mode: warm white → faint violet-blue tint */
+  background-color: #f8f7ff;
+  background-image:
+    /* subtle dot grid */
+    radial-gradient(circle, #c4b5fd22 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+html.dark body {
+  /* Dark mode: deep navy */
+  background-color: #0d0f1a;
+  background-image:
+    radial-gradient(circle, #7c3aed18 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* ─── Utilities ──────────────────────────────────────────── */
 .borderBlack {
   @apply border border-black/10;
 }
