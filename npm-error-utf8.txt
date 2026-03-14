@@ -1,0 +1,100 @@
+﻿node.exe : npm error code 
+ERESOLVE
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" "C:\Us
+ers\dubey\AppData\Roaming\ 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (npm err  
+  or code ERESOLVE:String)   
+  [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+npm error ERESOLVE could not 
+resolve
+npm error
+npm error While resolving: 
+@react-email/tailwind@2.0.5
+npm error Found: 
+@react-email/body@0.3.0
+npm error node_modules/@react
+-email/body
+npm error   
+@react-email/body@"0.3.0" 
+from 
+@react-email/components@1.0.9
+npm error   node_modules/@rea
+ct-email/components
+npm error     @react-email/co
+mponents@"^1.0.9" from the 
+root project
+npm error
+npm error Could not resolve 
+dependency:
+npm error peerOptional 
+@react-email/body@"0.2.1" 
+from 
+@react-email/tailwind@2.0.5
+npm error node_modules/@react
+-email/tailwind
+npm error   @react-email/tail
+wind@"^2.0.5" from the root 
+project
+npm error   @react-email/tail
+wind@"2.0.5" from 
+@react-email/components@1.0.9
+npm error   node_modules/@rea
+ct-email/components
+npm error     @react-email/co
+mponents@"^1.0.9" from the 
+root project
+npm error
+npm error Conflicting peer 
+dependency: 
+@react-email/body@0.2.1
+npm error node_modules/@react
+-email/body
+npm error   peerOptional 
+@react-email/body@"0.2.1" 
+from 
+@react-email/tailwind@2.0.5
+npm error   node_modules/@rea
+ct-email/tailwind
+npm error     @react-email/ta
+ilwind@"^2.0.5" from the 
+root project
+npm error     @react-email/ta
+ilwind@"2.0.5" from 
+@react-email/components@1.0.9
+npm error     node_modules/@r
+eact-email/components
+npm error       @react-email/
+components@"^1.0.9" from the 
+root project
+npm error
+npm error Fix the upstream 
+dependency conflict, or retry
+npm error this command with 
+--force or --legacy-peer-deps
+npm error to accept an 
+incorrect (and potentially 
+broken) dependency 
+resolution.
+npm error
+npm error
+npm error For a full report 
+see:
+npm error C:\Users\dubey\AppD
+ata\Local\npm-cache\_logs\202
+6-03-14T06_36_03_324Z-eresolv
+e-report.txt
+npm error A complete log of 
+this run can be found in: C:\
+Users\dubey\AppData\Local\npm
+-cache\_logs\2026-03-14T06_36
+_03_324Z-debug-0.log
