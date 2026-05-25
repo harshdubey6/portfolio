@@ -116,7 +116,7 @@ export default function Intro() {
 
           <a
             className="group bg-white px-6 py-2.5 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white"
-            href="https://drive.google.com/file/d/1aJVyfzxJnCAbNLt2YVbmIhHiKw33V4B-/view?usp=sharing"
+            href="https://drive.google.com/file/d/1TEs6rJ6AVAS6Pw-07DcfgH3uglw2Uf9G/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >

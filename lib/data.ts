@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
+import reviewScopeImg from "@/public/reviewscope.png";
 import krishiaiImg from "@/public/krishiai.png";
 import carRentalImg from "@/public/car-rental.png";
 import swasthImg from "@/public/swasth.png";
@@ -60,6 +61,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "ReviewScope",
+    description:
+      "Built an AI-powered GitHub PR review platform using Next.js, Node.js, PostgreSQL, Redis, and LLM integrations to automate scalable real-time code reviews. Implemented static analysis, semantic RAG pipelines, intelligent LLM routing, and GitHub webhook automation for efficient pull request analysis.",
+    tags: ["Next.js", "Node.js", "PostgreSQL", "Redis", "LLMs"],
+    imageUrl: reviewScopeImg,
+    githubUrl: "https://github.com/harshdubey6/ReviewScope",
+  },
   {
     title: "KrishiAI",
     description:
