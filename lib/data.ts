@@ -68,6 +68,7 @@ export const projectsData = [
     tags: ["Next.js", "Node.js", "PostgreSQL", "Redis", "LLMs"],
     imageUrl: reviewScopeImg,
     githubUrl: "https://github.com/harshdubey6/ReviewScope",
+    demoUrl: "https://github.com/harshdubey6/ReviewScope",
   },
   {
     title: "KrishiAI",
