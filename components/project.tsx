@@ -43,14 +43,16 @@ export default function Project({
         "
       >
         {/* ── Image (top on mobile, side on desktop) ── */}
-        <div className="relative w-full h-48 sm:h-auto sm:w-[45%] flex-shrink-0">
+        <div className="relative w-full h-48 sm:min-h-[18rem] sm:w-[45%] flex-shrink-0 bg-gray-200 dark:bg-white/5">
           <Image
             src={imageUrl}
             alt={`${title} screenshot`}
-            fill
+            width={1200}
+            height={900}
             quality={85}
+            sizes="(max-width: 640px) 100vw, 45vw"
             style={{ objectFit: "cover", objectPosition: "top left" }}
-            className="transition duration-500 group-hover:scale-105"
+            className="h-full w-full transition duration-500 group-hover:scale-105"
           />
         </div>
 

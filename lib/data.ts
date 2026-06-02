@@ -4,7 +4,6 @@ import { LuGraduationCap } from "react-icons/lu";
 import reviewScopeImg from "@/public/reviewscope.png";
 import krishiaiImg from "@/public/krishiai.png";
 import carRentalImg from "@/public/car-rental.png";
-import swasthImg from "@/public/swasth.png";
 import mediumImg from "@/public/medium.png";
 
 import {
@@ -45,9 +44,9 @@ export const experiencesData = [
     location: "Mumbai, Maharashtra",
     description:
       "Studying at G.V. Acharya Institute of Engineering & Technology. Active in Competitive Programming with 150+ LeetCode problems solved.",
-    cgpa: "CGPA: 7.33",
+    cgpa: "CGPA: 8.23",
     icon: React.createElement(LuGraduationCap),
-    date: "Oct 2022 - Jun 2026",
+    date: "Oct 2022 - May 2026",
   },
   {
     title: "Software Intern",
@@ -71,13 +70,13 @@ export const projectsData = [
     demoUrl: "https://github.com/harshdubey6/ReviewScope",
   },
   {
-    title: "KrishiAI",
+    title: "SwasthAI",
     description:
-      "AI-driven crop diagnosis system leveraging Gemini API to analyze plant images and generate disease predictions with confidence scoring.",
-    tags: ["Next.js", "TypeScript", "Gemini API", "Tailwind CSS"],
-    imageUrl: krishiaiImg,
-    githubUrl: "https://github.com/harshdubey6/krishiai",
-    demoUrl: "https://aikrishi.vercel.app/login",
+      "Developed SwasthAI, an AI-powered nutrition platform that delivers personalized meal recommendations and diet plans based on users’ health goals. Implemented a RAG-based system to provide accurate, evidence-backed answers to nutrition and wellness queries. Enabled meal analysis and nutrition tracking to help users make informed health decisions.",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Supabase (pgvector)", "Gemini AI", "Node.js"],
+    imageUrl: "/swasth-ai.png",
+    githubUrl: "https://github.com/harshdubey6/swasthai",
+    demoUrl: "https://aiswasth.vercel.app/",
   },
   {
     title: "Car Rental Platform",
@@ -89,13 +88,13 @@ export const projectsData = [
     demoUrl: "https://carrental-pr.vercel.app/",
   },
   {
-    title: "SwasthAI",
+    title: "KrishiAI",
     description:
-      "Personalized diet recommendation engine using Gemini API based on user health metrics and goals with macro tracking.",
-    tags: ["Next.js", "Supabase", "Gemini API"],
-    imageUrl: swasthImg,
-    githubUrl: "https://github.com/harshdubey6/swasthai",
-    demoUrl: "https://aiswasth.vercel.app/",
+      "AI-driven crop diagnosis system leveraging Gemini API to analyze plant images and generate disease predictions with confidence scoring.",
+    tags: ["Next.js", "TypeScript", "Gemini API", "Tailwind CSS"],
+    imageUrl: krishiaiImg,
+    githubUrl: "https://github.com/harshdubey6/krishiai",
+    demoUrl: "https://aikrishi.vercel.app/login",
   },
   {
     title: "Blogging Platform",
