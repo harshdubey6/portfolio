@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { links } from "@/lib/data";
+import { links, resumeUrl } from "@/lib/data";
 import Link from "next/link";
 import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -58,6 +58,18 @@ export default function Header() {
               </Link>
             </motion.li>
           ))}
+          <motion.li className="relative flex h-9 items-center justify-center sm:h-[initial]">
+            <a
+              className={clsx(
+                "flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium bg-gray-100 hover:bg-gray-200 transition-transform hover:scale-105 duration-200 text-gray-900 dark:bg-gray-800 dark:text-gray-100",
+              )}
+              href={resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </motion.li>
         </ul>
       </nav>
     </header>

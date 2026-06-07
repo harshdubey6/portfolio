@@ -38,6 +38,9 @@ export const links = [
   },
 ] as const;
 
+export const resumeUrl =
+  "https://drive.google.com/file/d/1zHPObfSE2PuD5KdG-qcTZoEptT6I-CW-/view?usp=drivesdk";
+
 export const experiencesData = [
   {
     title: "Bachelor of Engineering in AI & ML",
